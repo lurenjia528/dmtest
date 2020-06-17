@@ -1,0 +1,13 @@
+# github.com/alexbrainman/odbc v0.0.0-20200426075526-f0492dfa1575
+github.com/alexbrainman/odbc
+github.com/alexbrainman/odbc/api
+# github.com/axgle/mahonia v0.0.0-20180208002826-3358181d7394
+github.com/axgle/mahonia
+# github.com/go-xorm/xorm v0.7.9
+github.com/go-xorm/xorm
+# golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a
+golang.org/x/sys/windows
+# xorm.io/builder v0.3.6
+xorm.io/builder
+# xorm.io/core v0.7.3
+xorm.io/core
