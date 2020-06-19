@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 	_ "github.com/alexbrainman/odbc" // google's odbc driver
-	"github.com/go-xorm/xorm"
-	"xorm.io/core"
 	"github.com/axgle/mahonia"
+	"github.com/go-xorm/xorm"
 	"time"
+	"xorm.io/core"
 )
 
 type Person struct {
@@ -19,7 +19,7 @@ type Person struct {
 
 func main() {
 
-	Engine, err := xorm.NewEngine("odbc", "driver={DM7 ODBC DRIVER};server=127.0.0.1:5236;database=DM;uid=SYSDBA;pwd=SYSDBA;charset=utf8")
+	Engine, err := xorm.NewEngine("odbc", "driver={DM8 ODBC DRIVER};server=127.0.0.1:5236;database=DM;uid=SYSDBA;pwd=SYSDBA;charset=utf8")
 	if err != nil {
 		fmt.Println("new engine got error:", err)
 		return
