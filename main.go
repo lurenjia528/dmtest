@@ -19,7 +19,7 @@ type Person struct {
 
 func main() {
 
-	Engine, err := xorm.NewEngine("odbc", "driver={DM8 ODBC DRIVER};server=127.0.0.1:5236;database=DM;uid=SYSDBA;pwd=SYSDBA;charset=utf8")
+	Engine, err := xorm.NewEngine("odbc", "driver={DM7 ODBC DRIVER};server=192.168.17.187:5236;database=DM;uid=SYSDBA;pwd=SYSDBA;charset=utf8")
 	if err != nil {
 		fmt.Println("new engine got error:", err)
 		return
